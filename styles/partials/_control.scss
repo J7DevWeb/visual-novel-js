@@ -1,0 +1,14 @@
+.controls {
+    @include flex;
+    position: relative;
+    right: -50%;
+    background-color: color.adjust($smoky-black, $alpha: -0.2);
+    height: 100px;
+    width: 100px;
+    padding: 14px 7px;
+    border-radius: 7px;
+
+    &>* {
+        margin: 7px;
+    }
+}

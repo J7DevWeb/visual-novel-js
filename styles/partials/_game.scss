@@ -1,0 +1,44 @@
+.game {
+    @include flex;
+    position: absolute;
+    background-color: color.adjust($golden-rod, $alpha: -0.5);
+    min-height: 100px;
+    min-width: 400px;
+    max-width: 700px;
+    border-radius: 3px;
+    .chapter {
+        font-size: 3em;
+        padding: 7px;
+    }
+    .subtitle {
+        font-size: 2em;
+        padding-bottom: 7px;
+    }
+    .text {
+        font-size: 1em;
+        padding: 14px;
+    }
+
+    .visual {
+        margin: 7px;
+    }
+    .visual > * {
+        border-radius: 14px;
+    }
+
+    .choices {
+        padding: 14px 0;
+    }
+
+    .btn {
+        background-color: $smoky-black;
+        border: 2px solid $white;
+        border-radius: 7px;
+        padding: 7px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: $jet;
+        }
+    }
+}
