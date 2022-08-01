@@ -6,20 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Harry Potter Chapitres</title>
         <link rel="stylesheet" href="../styles/style.css">
+        <script defer src="../src/game.js"></script>
     </head>
     <body>
-        <div class="blured-bg"></div>
+        <div class="blured-bg" id="blured-bg"></div>
         <div class="game">
             <div class="controls">
                 <label for="sound">Son</label>
                 <input type="checkbox" checked id="sound">
-                <button class="btn">Recommencer</button>
+                <button class="btn" id="restart">Recommencer</button>
             </div>
-            <h1 class="chapter">Chapitre 1</h1>
-            <h2 class="subtitle">Sous titre du chapitre</h2>
-            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate exercitationem reiciendis est laudantium voluptate quasi voluptas nesciunt odio mollitia obcaecati in sit maiores commodi ad, beatae cum enim vitae natus.</p>
-            <div class="visual"></div>
-            <div class="choices"></div>
-        </div>
+            <h1 class="chapter" id="chapter">Chapitre 1</h1>
+            <h2 class="subtitle" id="subtitle">Sous titre du chapitre</h2>
+            <p class="text" id="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate exercitationem reiciendis est laudantium voluptate quasi voluptas nesciunt odio mollitia obcaecati in sit maiores commodi ad, beatae cum enim vitae natus.</p>
+            <div class="visual" id="visual"></div>
+            <div class="choices" id="choices"></div>
+        </div>   
     </body>
 </html>

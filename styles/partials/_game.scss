@@ -23,6 +23,7 @@
         margin: 7px;
     }
     .visual > * {
+        width: 370px;
         border-radius: 14px;
     }
 
@@ -41,4 +42,14 @@
             background-color: $jet;
         }
     }
+}
+
+.blured-bg {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(14px) grayscale(50%);
+    -webkit-filter: blur(14px) grayscale(50%);
 }
