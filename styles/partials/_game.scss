@@ -21,14 +21,18 @@
 
     .visual {
         margin: 7px;
+        & > * {
+            width: 370px;
+            border-radius: 14px;
+        }
     }
-    .visual > * {
-        width: 370px;
-        border-radius: 14px;
-    }
-
+    
     .choices {
         padding: 14px 0;
+        margin: 7px;
+        & > * {
+            margin: 7px;
+        }
     }
 
     .btn {
@@ -41,6 +45,13 @@
             cursor: pointer;
             background-color: $jet;
         }
+    }
+
+    .hud {
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 

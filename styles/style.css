@@ -54,6 +54,10 @@ body {
 }
 .game .choices {
   padding: 14px 0;
+  margin: 7px;
+}
+.game .choices > * {
+  margin: 7px;
 }
 .game .btn {
   background-color: rgb(17, 17, 17);
@@ -64,6 +68,12 @@ body {
 .game .btn:hover {
   cursor: pointer;
   background-color: rgb(51, 51, 51);
+}
+.game .hud {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .blured-bg {
@@ -91,4 +101,21 @@ body {
 }
 .controls > * {
   margin: 7px;
+}
+
+@media (max-width: 550px) {
+  .game {
+    top: 20px;
+  }
+  .controls {
+    right: 0%;
+  }
+}
+@media (max-height: 550px) {
+  .game {
+    top: 20px;
+  }
+  .controls {
+    right: 0%;
+  }
 }/*# sourceMappingURL=style.css.map */
